@@ -27,7 +27,7 @@ int main()
   float left_Over;
   float intInvestment;
   float yearly_profit;
-  int cows_Bought; // This variable is integer because with float it rounds out to 3.25 but with integer it rounds to a whole number
+  int cows_Bought; // This variable is integer because with float it rounds out to 3.25 but with integer it rounds to a whole number 3
   
   // Inputs for questions
   cout << "Well it looks like you decided to buy a farm!\n";
@@ -56,7 +56,7 @@ int main()
   // Calculations after inputs
   area = (short_side+long_side) * height/2;  // A= (a+b)*h/2 formula for trapezoid
   total_Price = area * land_cost;            
-  cows_Bought = (budget-land_cost)/cow_cost;  // From line 52 to line 55 was the most difficult for me
+  cows_Bought = (budget-land_cost)/cow_cost; 
   left_Over = budget-(cows_Bought*cow_cost);
   intInvestment = total_Price+(cows_Bought*cow_cost);
   yearly_profit =(cows_Bought*cow_profit)*12-(cow_monthly_maintain*12)*3;
